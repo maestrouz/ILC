@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f4f7fa;
+}
+
+.footer {
+  display: flex;
+  margin-top: 203px;
+  width: 1440px;
+  height: 100px;
+  .footer-left {
+    margin-left: 80px;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    img {
+      width: 199px;
+      height: 63px;
+    }
+    h3 {
+      margin-top: 10px;
+      margin-left: 48px;
+      color: #303030;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+    }
+  }
+  .footer-right {
+    margin-left: 602px;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    column-gap: 27px;
+    img {
+      margin-top: 15px;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+.footer-bottom {
+  display: flex;
+  width: 1440px;
+  height: 52px;
+  background: #e8edf3;
+  p {
+    margin-left: 79px;
+    color: #7a7a7a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  h5 {
+    margin-left: 541px;
+    color: #7a7a7a;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  h6 {
+    margin-left: 16px;
+    color: #7a7a7a;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    display: block;
+    margin-top: 250px;
+    width: 320px;
+    height: 602px;
+    .footer-left {
+      width: 320px;
+      display: block;
+      h3 {
+        margin-top: 16px;
+        margin-left: -156px;
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .footer-right {
+      display: flex;
+      margin-top: -430px;
+      margin-left: 75px;
+      img {
+        width: 23px;
+        height: 23px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-bottom {
+    margin-top: -350px;
+    display: block;
+    width: 400px;
+    height: 171px;
+    p {
+      width: 280px;
+      margin-top: 32px;
+      margin-left: 68px;
+      font-size: 10px;
+      text-align: center;
+    }
+    h5 {
+      display: flex;
+      margin-left: 118px;
+      font-size: 10px;
+    }
+    h6 {
+        margin-top: 20px;
+      display: flex;
+      margin-left: 118px;
+      font-size: 10px;
+    }
+  }
+}

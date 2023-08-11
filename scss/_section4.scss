@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f4f7fa;
+}
+
+.section4 {
+  position: relative;
+  margin-top: 144px;
+  width: 1440px;
+  height: 780px;
+  border: 1px solid;
+  .section4-top {
+    h2 {
+      color: #303030;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px;
+    }
+    h4 {
+      margin-top: 16px;
+      color: #404040;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+    }
+  }
+  .section4-btn {
+    margin-top: 32px;
+    margin-left: 571px;
+    display: flex;
+    .section4-btn1 {
+      width: 133px;
+      height: 50px;
+      border-radius: 15px;
+      background: #273895;
+      border: none;
+      color: #fff;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    h3 {
+      margin-top: 12px;
+      margin-left: 64px;
+      color: #273895;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+    }
+  }
+  .section4-main {
+    margin-top: 32px;
+    margin-left: 189px;
+    width: 80%;
+    height: 495px;
+    border-radius: 20px;
+    background: #fff;
+    h3 {
+      margin-top: 48px;
+      color: #2741d0;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin-top: 8px;
+      color: #c9c9c9;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 44px;
+    }
+    p {
+      margin-top: 16px;
+      color: #737373;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    h4 {
+      margin-top: 16px;
+      color: #404040;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    .lists {
+      margin-top: 16px;
+      margin-left: 219px;
+      display: flex;
+      width: 700px;
+      height: 100px;
+      .lists-left {
+        width: 50%;
+        ul {
+          column-gap: 24px;
+          list-style-image: url(../images/section4.png);
+          li {
+            color: #404040;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+          }
+        }
+      }
+      .lists-right {
+        margin-left: 19px;
+        width: 50%;
+        ul {
+          column-gap: 24px;
+          list-style-image: url(../images/section4.png);
+          li {
+            margin-top: 10px;
+            width: 306px;
+            color: #404040;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .section4-btn2 {
+      margin-top: 16px;
+      margin-left: 470px;
+      width: 220px;
+      height: 56px;
+      border-radius: 15px;
+      background: #273895;
+      border: none;
+      color: #fff;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section4 {
+    margin-top: 500px;
+    width: 350px;
+    height: 750px;
+    .section4-btn {
+      width: 350px;
+      margin-left: 50px;
+    }
+    .section4-main {
+        margin-top: -60px;
+      width: 350px;
+      height: 540px;
+      margin-left: -1px;
+      h3{
+        margin-top: 20px;
+      }
+
+      .lists {
+        display: block;
+        width: 350px;
+        margin-left: 1px;
+        .lists-left {
+          width: 350px;
+          ul {
+            li {
+              margin-left: 53px;
+              font-size: 12px;
+            }
+          }
+        }
+        .lists-right {
+          width: 350px;
+          ul {
+            li {
+              margin-left: 33px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      h3 {
+        font-size: 12px;
+        margin-top: 96px;
+      }
+      .section4-btn2{
+        margin-left: 61px;
+      }
+    }
+  }
+}
